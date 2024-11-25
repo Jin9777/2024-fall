@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+section {
+    padding: 1rem 2rem;
+    background: #fff;
+    margin: 1rem auto;
+    max-width: 800px;
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.artwork {
+    margin-bottom: 2rem;
+}
+
+.artwork img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.5rem 0;
+}
+
+@media (min-width: 600px) {
+    .artwork {
+        display: flex;
+        align-items: center;
+    }
+
+    .artwork img {
+        max-width: 200px;
+        margin-right: 1rem;
+    }
+
+    .artwork div {
+        flex: 1;
+    }
+}
